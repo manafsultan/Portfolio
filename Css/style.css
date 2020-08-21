@@ -55,28 +55,64 @@ section{
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
-    background-color: #dfded9;
     position: relative;
+    line-height: 70px;
+    padding:0 5px ;
+    -webkit-transition: all 0.3s ease;
+    transition: ease all 0.3s;
+}
+
+.aside .logo a:hover{
+    font-size: 41px;
+    
 }
 
 .aside .logo a::before{
     content: '';
     height: 20px;
     width: 20px;
-    background-color: red;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .aside .logo a::after{
-
+    content: '';
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .aside .nav{
     list-style: none;
-    background-color: #dfded9;
     margin: 80px 0;
+    padding: 0;
+}
+
+.aside .nav li{
+    display: block;
+}
+
+.aside .nav li a{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(47, 46, 46);
+    text-decoration: none;
+    line-height: 5rem;
+    display: block;
+    border-bottom: 1px solid #c4c1c4;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.aside .nav li a:hover{
+    padding-left: 5px;
+}
+
+.aside .nav li a .fa{
+    margin-right: 10px;
 }
 
 .aside .copyright-text{
