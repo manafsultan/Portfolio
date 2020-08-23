@@ -35,7 +35,13 @@ section{
 
 .container{
     max-width: 1100px;
+    width: 100%;
     margin: auto;
+}
+
+.shadow-dark{
+    -webkit-box-shadow: 0 0 20px rgba(57, 57, 59, 0.20);
+    box-shadow: 0 0 20px rgba(57, 57, 59, 0.20);
 }
 
 /* Aside */
@@ -170,8 +176,60 @@ section{
 }
 /* Home */
 
-.home-section{
+.home{
     min-height: 100vh; 
     display: -ms-flexbox;
     display: flex;
+    user-select: none;
+}
+
+.home .intro{
+    text-align: center;
+}
+
+.home .intro img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 8px solid white;
+}
+
+.home .intro h1{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(47, 46, 46);
+    font-weight: 700;
+    margin: 20px 0 8px;
+}
+
+.home .intro p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 22px;
+    color: rgb(63, 61, 61);
+}
+
+.home .intro .social{
+    margin-top: 25px;
+}
+
+.home .intro .social a{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.home .intro .social a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
