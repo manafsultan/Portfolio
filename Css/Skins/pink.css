@@ -7,3 +7,14 @@
     border-bottom: solid 4px #E43B5C;
     border-right: solid 4px #E43B5C;
 }
+
+.aside .nav li a:hover,
+.aside .nav li a.active{
+    color: #E43B5C;
+}
+
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after{
+    background-color: #E43B5C;
+}
