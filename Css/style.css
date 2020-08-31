@@ -8,6 +8,7 @@ body{
     font-size: 16px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
+    background-color: #f5f2e8;
 }
 
 *{
@@ -318,6 +319,7 @@ body{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    background-color: #f5f2e8;
 }
 
 .about .about-content .about-text{
@@ -336,7 +338,6 @@ body{
 .about .about-content .about-text p{
     font-size: 16px;
     line-height: 25px;
-
 }
 
 .about .about-content .personal-info{
@@ -387,3 +388,49 @@ body{
     max-width: 40%;
     margin-top: 40px;
 }
+
+.about .about-content .skills .skill-item{
+    /* background-color: red; */
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.about .about-content .skills .skill-item h5{
+    color: rgb(47, 46, 46);
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0;
+} 
+
+.about .about-content .skills .skill-item .progress{
+    background-color:#c4c1c4;
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+}
+
+.about .about-content .skills .skill-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.about .about-content .skills .skill-item .skill-percent{
+    /* display: none; */
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    font-weight: 400;
+    color: rgb(47, 46, 46);
+}
+
+/* Service Section */
+
