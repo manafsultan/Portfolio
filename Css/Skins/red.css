@@ -10,6 +10,10 @@
 
 .info-item a,
 .about-text a,
+.portfolio .portfolio-item .portfolio-info .icon .fas,
+.lightbox .lightbox-controls .prev-item .fas,
+.lightbox .lightbox-controls .next-item .fas,
+.portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fas,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
@@ -30,3 +34,6 @@
     background-color: #E43B5C;
 }
 
+.portfolio .portfolio-filter button.active{
+    border-color: #E43B5C;
+}

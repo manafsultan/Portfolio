@@ -50,10 +50,10 @@
     <!-- Main Content-->
     <div class="main-content">
         <!-- Home Section -->
-        <section class="home section">
+        <section class="home section hidden">
             <div class="container">
                 <div class="intro">
-                    <img src="./Css/28808218.png" alt="profile" class="shadow-dark">
+                    <img src="/Photos/profile.png" alt="profile" class="shadow-dark">
                     <h1>Manaf SULTAN</h1>
                     <p>I'm a Web Developer</p>
                     <div class="social">
@@ -66,8 +66,90 @@
         </section>
         <!-- Home Section End -->
 
+        <!-- Portfolio Section -->
+        <section class="portfolio section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padding-15">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-filter padding-15">
+                        <button type="button" class="active" data-filter="all">All</button>
+                        <button type="button" data-filter="web-development">Web Development</button>
+                        <button type="button" data-filter="web-design">Web Design</button>
+                        <button type="button" data-filter="translating">Translating</button>
+                        <button type="button" data-filter="video-editing">Video Editing</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Portfolio Item -->
+                    <div class="portfolio-item padding-15" data-category="web-development">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/Photos/dev.jpg" alt="web-development">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Web Development</h4>
+                                <div class="icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item -->
+                    <div class="portfolio-item padding-15" data-category="web-design">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/Photos/Design.jpg" alt="web-design">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Web Design</h4>
+                                <div class="icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item -->
+                    <div class="portfolio-item padding-15" data-category="translating">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/Photos/trans.jpg" alt="translating">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Translating</h4>
+                                <div class="icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item -->
+                    <div class="portfolio-item padding-15" data-category="video-editing">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/Photos/editing.jpg" alt="video-editing">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Video Editing</h4>
+                                <div class="icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
         <!-- Service Section -->
-        <section class="service section">
+        <section class="service section hidden">
             <div class="container">
                 <div class="row">
                     <div class="section-title padding-15">
@@ -79,7 +161,7 @@
                     <div class="service-item padding-15">
                         <div class="service-item-inner">
                             <div class="icon"><i class="fas fa-paint-brush"></i></div>
-                            <h4>Web Design</h4>
+                            <h4>Web Development</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt neque vero magnam itaque possimus temporibus non minima molestias, delectus.</p>
                         </div>
                     </div>
@@ -88,7 +170,7 @@
                     <div class="service-item padding-15">
                         <div class="service-item-inner">
                             <div class="icon"><i class="fas fa-laptop-code"></i></div>
-                            <h4>Web Development</h4>
+                            <h4>Web Design</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt neque vero magnam itaque possimus temporibus non minima molestias, delectus.</p>
                         </div>
                     </div>
@@ -117,7 +199,7 @@
         <!-- End Service Sectiion -->
 
         <!-- About -->
-        <section class="about section">
+        <section class="about section hidden">
             <div class="container">
                 <div class="row">
                     <div class="section-title padding-15">
@@ -185,7 +267,7 @@
                                         </div>
                                     </div>
                                     <div class="skill-item padding-15">
-                                        <h5>Node-Express</h5>
+                                        <h5>React</h5>
                                         <div class="progress">
                                             <div class="progress-in" style="width: 65%;"></div>
                                             <div class="skill-percent">65%</div>
@@ -203,6 +285,28 @@
     </div>
     <!-- Main Content End-->
 </div>
+<!-- Main Container -->
+
+<!-- Light Box -->
+<div class="lightbox">
+    <div class="lightbox-content">
+        <div class="lightbox-close"><!--<i class="fas fa-times-circle"></i>-->&times;</div>
+        <img src="/Photos/dev.jpg" class="lightbox-img" alt="portfolio">
+        <div class="lightbox-caption">
+            <div class="caption-text">Web Development</div>
+            <div class="caption-counter">1 of 4</div>
+        </div>
+    </div>
+    <div class="lightbox-controls">
+        <div class="prev-item"><i class="fas fa-angle-left"></i></div>
+        <div class="next-item"><i class="fas fa-angle-right"></i></div>
+    </div>
+</div>
+<!-- Light Box End-->
+
+<!-- Template js -->
+<script src="/JS/script.js"></script>
+
 </body>
 </html>
 
