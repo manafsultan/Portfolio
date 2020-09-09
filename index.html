@@ -49,7 +49,7 @@ gtag('config', 'UA-158072107-1');
     <!-- Main Content-->
     <div class="main-content">
         <!-- Home Section -->
-        <section class="home section hidden">
+        <section class="home section">
             <div class="container">
                 <div class="intro">
                     <img src="/Photos/profile.png" alt="profile" class="shadow-dark">
@@ -148,7 +148,7 @@ gtag('config', 'UA-158072107-1');
         </section>
         <!-- Portfolio Section End -->
         <!-- Service Section -->
-        <section class="service section hidden">
+        <section class="service section">
             <div class="container">
                 <div class="row">
                     <div class="section-title padding-15">
@@ -198,7 +198,7 @@ gtag('config', 'UA-158072107-1');
         <!-- End Service Sectiion -->
 
         <!-- About -->
-        <section class="about section hidden">
+        <section class="about section">
             <div class="container">
                 <div class="row">
                     <div class="section-title padding-15">
@@ -290,15 +290,15 @@ gtag('config', 'UA-158072107-1');
 <div class="lightbox">
     <div class="lightbox-content">
         <div class="lightbox-close"><!--<i class="fas fa-times-circle"></i>-->&times;</div>
-        <img src="/Photos/dev.jpg" class="lightbox-img" alt="portfolio">
+        <img src="/Photos/dev.jpg" class="lightbox-img" alt="portfolio" onclick="nextItem()">
         <div class="lightbox-caption">
-            <div class="caption-text">Web Development</div>
-            <div class="caption-counter">1 of 4</div>
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
         </div>
     </div>
     <div class="lightbox-controls">
-        <div class="prev-item"><i class="fas fa-angle-left"></i></div>
-        <div class="next-item"><i class="fas fa-angle-right"></i></div>
+        <div class="prev-item" onclick="prevItem()"><i class="fas fa-angle-left"></i></div>
+        <div class="next-item" onclick="nextItem()"><i class="fas fa-angle-right"></i></div>
     </div>
 </div>
 <!-- Light Box End-->
