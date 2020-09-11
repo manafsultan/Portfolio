@@ -20,8 +20,6 @@ body.dark .portfolio .portfolio-filter button.active,
 .about .about-content .about-text h3 span,
 body.dark .aside .nav li a.active,
 body.dark .aside .nav li a:hover,
-.contact .contact-form .form-item .form-control,
-body.dark .contact .contact-form .form-item .form-control,
 .aside .nav li a:hover,
 .aside .nav li a.active{
     color: #fa00ff;
@@ -48,6 +46,6 @@ body.dark .portfolio .portfolio-filter button.active,
 .contact .contact-form .form-item .form-control:focus,
 .home .intro img:hover{
     border-color: #fa00ff;
-    /* -webkit-box-shadow: 0 0 30px rgba(234, 0, 255, 0.322);
-    box-shadow: 0 0 30px rgba(234, 0, 255, 0.3); */
+    -webkit-box-shadow: 0 0 30px rgba(234, 0, 255, 0.322);
+    box-shadow: 0 0 30px rgba(234, 0, 255, 0.3);
 }
