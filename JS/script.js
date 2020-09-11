@@ -84,4 +84,4 @@ lightbox.addEventListener("click", function(event){
     if(event.target === lightboxClose || event.target === lightbox){
         toggleLightbox();
     }
-})
+});
