@@ -1,11 +1,11 @@
 .aside .logo a::before{
-    border-top: 4px solid #E43B5C;
-    border-left: 4px solid #E43B5C;
+    border-top: 4px solid #fa00ff;
+    border-left: 4px solid #fa00ff;
 }
 
 .aside .logo a::after{
-    border-bottom: solid 4px #E43B5C;
-    border-right: solid 4px #E43B5C;
+    border-bottom: solid 4px #fa00ff;
+    border-right: solid 4px #fa00ff;
 }
 
 .info-item a,
@@ -18,13 +18,13 @@
 body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fas,
 .about .about-content .about-text h3 span,
-.aside .nav li a:hover,
-.contact .contact-form .form-item .form-control,
-body.dark .contact .contact-form .form-item .form-control,
 body.dark .aside .nav li a.active,
 body.dark .aside .nav li a:hover,
+.contact .contact-form .form-item .form-control,
+body.dark .contact .contact-form .form-item .form-control,
+.aside .nav li a:hover,
 .aside .nav li a.active{
-    color: #E43B5C;
+    color: #fa00ff;
 }
 
 
@@ -37,17 +37,17 @@ body.dark .aside .nav li a:hover,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
 .home .intro .social a{
-    background-color: #E43B5C;
+    background-color: #fa00ff;
 }
 
 body.dark .portfolio .portfolio-filter button.active,
 .portfolio .portfolio-filter button.active{
-    border-color: #E43B5C;
+    border-color: #fa00ff;
 }
 
 .contact .contact-form .form-item .form-control:focus,
 .home .intro img:hover{
-    border-color: #E43B5C;
-    /* -webkit-box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
-    box-shadow: 0 0 30px rgba(255, 0, 0, 0.30); */
+    border-color: #fa00ff;
+    /* -webkit-box-shadow: 0 0 30px rgba(234, 0, 255, 0.322);
+    box-shadow: 0 0 30px rgba(234, 0, 255, 0.3); */
 }
