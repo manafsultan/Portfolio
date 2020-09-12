@@ -10,10 +10,11 @@
 
 .info-item a,
 .about-text a,
+.contact .contact-form .form-item .form-control,
+body.dark .contact .contact-form .form-item .form-control,
+.portfolio .portfolio-item .portfolio-info h4,
 .style-switcher .toggle-style-switcher .fas,
 .portfolio .portfolio-item .portfolio-info .icon .fas,
-.lightbox .lightbox-controls .prev-item .fas,
-.lightbox .lightbox-controls .next-item .fas,
 .portfolio .portfolio-filter button.active,
 body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fas,
@@ -43,6 +44,7 @@ body.dark .portfolio .portfolio-filter button.active,
     border-color: #0048ff;
 }
 
+body.dark .contact .contact-form .form-item .form-control:focus,
 .contact .contact-form .form-item .form-control:focus,
 .home .intro img:hover{
     border-color: #0048ff;
