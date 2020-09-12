@@ -1,3 +1,12 @@
+
+window.addEventListener("load", function(){
+    document.querySelector(".preloader").classList.add("opacity-0");
+    
+    setTimeout(() =>{
+        document.querySelector(".preloader").style.display="none";
+    },1000)
+});
+
 // Portfolio Item Filter
 
 const filterContainer=document.querySelector(".portfolio-filter"),
@@ -135,7 +144,7 @@ function showSection(element){
 const navTogglerBtn=document.querySelector(".nav-toggler"),
     aside=document.querySelector(".aside");
 
-navTogglerBtn.addEventListener("click",asideSectionTogglerBtn)
+navTogglerBtn.addEventListener("click",asideSectionTogglerBtn);
 
 function asideSectionTogglerBtn(){
     aside.classList.toggle("open");
