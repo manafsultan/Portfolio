@@ -558,6 +558,10 @@ input,textarea,select{
     color: rgb(47, 46, 46);
 }
 
+.about .about-content .row .button span{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 /* Service Section */
 
 .service .container{
@@ -736,10 +740,12 @@ input,textarea,select{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .contact .contact-form i{
     margin-right: 10px;
+    font-weight: 700;
 }
 
 
