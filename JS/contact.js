@@ -8,12 +8,11 @@ window.addEventListener("DOMContentLoaded", function() {
 
     function success() {
       form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      swal("Message Sent!","", "success");
     }
 
     function error() {
-      status.innerHTML = "Oops! There was a problem.";
+      swal("Oops! There was a problem.","", "error");
     }
 
 // handle the form submission event
