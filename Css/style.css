@@ -564,6 +564,10 @@ input,textarea,select{
 
 /* Service Section */
 
+#more, #plus{
+    display: none;
+}
+
 .service .container{
     padding-bottom: 40px ;
 }
@@ -583,6 +587,12 @@ input,textarea,select{
     text-align: center;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+.service .service-item .service-item-inner button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .service .service-item .service-item-inner:hover{

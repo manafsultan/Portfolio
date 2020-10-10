@@ -19,6 +19,8 @@
 body.dark .contact .contact-form .form-item .form-control,
 .portfolio .portfolio-filter button.active,
 body.dark .portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner button,
+body.dark .service .service-item .service-item-inner button,
 .service .service-item .service-item-inner .icon .fas,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
