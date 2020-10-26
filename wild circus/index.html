@@ -1,0 +1,139 @@
+<!-- Afin de valider ton code HTML, fais un copier-coller de ce dernier et rends-toi sur https://validator.w3.org/#validate_by_input. 
+Click sur l'onglet "Validate by Direct Input" et colle ton code HTML, click ensuite sur le bouton "Check", et tu verras ensuite (si tu en as) les erreurs HTML s'afficher plus bas.
+Tu peux jeter un oeil par ici pour en savoir un peu plus: https://www.243tech.com/valider-vos-codes-html-et-css-sur-validator-w3-org/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Give+You+Glory" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Eater+Caps" />
+    <title>Wild Circus</title>
+</head>
+
+<body>
+    <header>
+        <h1>Wild Circus</h1>
+        <nav>
+
+            <ul class="menu">
+                <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+                <li><a href="#performance">Performances</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#prices">Prices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>
+            <a id="performance"></a>Performances</h2>
+        <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+        <ul id="perfo">
+            <!-- performance 1 -->
+            <li>
+                <h3>Laugh</h3>
+                <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+            </li>
+            <!-- performance 2 -->
+            <li>
+                <h3>Dream</h3>
+                <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+            </li>
+            <!-- performance 3 -->
+            <li>
+                <h3>Marvel at</h3>
+                <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+            </li>
+        </ul>
+    </section>
+
+    <hr/>
+
+    <section>
+        <h2>
+            <a id="about"></a>About Us</h2>
+        <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+        <p>Wild Circus our mission is to promote the skills, culture and traditions of the traveling circus, and to inspire youth to engage in life-changing adventures in the circus arts performing under traditional European-style circus tents, the award-winning
+            circus company including teen performers, professional circus coaches, tent and technical crew and a live circus band performing an original score each year.</p>
+    </section>
+
+    <hr/>
+
+    <section>
+        <h2>
+            <a id="prices"></a>Prices</h2>
+        <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                         |                                |
+        week-end et mercredi    |         |                         |                                |
+      -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Adults</th>
+                    <th>Children under 12 years</th>
+                    <th>Groups (more than 10 people)</th>
+                    <th>Schools</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weeks off Wednesday</td>
+                    <td>50€</td>
+                    <td>30€</td>
+                    <td>20€</td>
+                    <td>10€</td>
+                </tr>
+                <tr>
+                    <td>weekend and wednesday</td>
+                    <td>40€</td>
+                    <td>25€</td>
+                    <td>15€</td>
+                    <td>7,50€</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr/>
+
+    <section>
+        <h2>
+            <a id="contact"></a>Contact Us</h2>
+        <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message. Pense bien à ajouter les labels pour les différents champs
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+      -->
+        <form class="cont">
+            <label for="vic">Name:</label>
+            <input id="vic" placeholder="Name" type="text" required/><br/>
+            <label for="vic2">Email:</label>
+            <input id="vic2" placeholder="Email" type="email" required/><br/>
+            <label for="vic3">Message:</label>
+            <textarea id="vic3" placeholder="message" required></textarea>
+            <input style="cursor:pointer;" type="submit" value="SEND" class="submit" />
+
+        </form>
+    </section>
+
+    <footer>
+        <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr) ainsi que le lien vers ton profil public France.ioi (avec les 16 premiers exercies de réalisés).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+        <p>Wild Circus by Manaf SULTAN - <a href="http://www.france-ioi.org/user/perso.php?sLogin=vocuslocus" target="blank">France-IOI</a> - <a href="https://www.sololearn.com/Profile/4867373" target="blank">SoloLearn</a> - <a href="https://wildcodeschool.fr"
+                target="blank">Wild Code School</a> - [21/07/2019]</p>
+    </footer>
+    <div class="copyright">
+        &copy;2019 Wild Circus. All rights reserved.
+    </div>
+</body>
+
+</html>

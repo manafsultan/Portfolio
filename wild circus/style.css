@@ -1,0 +1,114 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rapp.contel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+
+/* Ecris ici ton code CSS */
+
+title {
+    font-family: "Amatic SC";
+}
+
+body {
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/e/6b/dambo-film-disnei-slon-slonionok.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.menu {
+    font-family: "Amatic SC";
+    font-size: 30px;
+    font-weight: 900;
+    color: #00f2ff;
+    text-shadow: 10px 12px 10px #f2919e
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Eater Caps;
+    color: #5ce675;
+    text-shadow: 10px 12px 10px #a64259, -10px -12px 10px #8c3873;
+    text-indent: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: #1f00f0;
+    text-align: center;
+    text-shadow: 8px -8px 10px
+}
+
+h3 {
+    font-family: "Give You Glory";
+    color: #d9d926;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+table {
+    table-layout: auto;
+    border-spacing: 1px;
+}
+
+td {
+    font-size: large;
+}
+
+table,
+th,
+td {
+    border: 2px dashed #e60075;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    color: #f2f20d;
+}
+
+.submit {
+    cursor: pointer;
+}
+
+p {
+    font-family: "Love Ya Like A Sister";
+    font-size: large;
+    color: #f2f20d;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 8pt;
+    font-weight: 900;
+    text-align: right;
+    padding-bottom: 10px;
+    color: red;
+}
+
+a:link {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d9577d;
+}
+
+a:hover {
+    color: #f2f20d;
+    opacity: 0.5;
+}
+
+#perfo {
+    display: flex;
+}
+
+form {
+    text-align: center;
+}
+
+.cont {
+    color: red;
+    font-family: Eater Caps;
+}
