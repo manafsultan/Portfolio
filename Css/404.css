@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background: -webkit-repeating-linear-gradient(-45deg, #6073a9, #6a72a3, #75719d, #7f6f97, #896e90, #946d8a, #9e6b84, #a86a7e, #b36978, #bd6871, #c7676b, #d26565);
+}
+
+.error-page{
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-repeating-linear-gradient(-45deg, #6073a9, #6a72a3, #75719d, #7f6f97, #896e90, #946d8a, #9e6b84, #a86a7e, #b36978, #bd6871, #c7676b, #d26565);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.error-page .content{
+    max-width: 600px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 18vw;
+    line-height: 1em;
+    position: relative;
+}
+
+.content h1:after{
+    position: absolute;
+    content: attr(data-text);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+    animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    25%{
+        background-position: 100% 0;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    75%{
+        background-position: 0 100%;
+    }
+}
+
+
+.content h4{
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 600px;
+    position: relative;
+}
+
+.content h4:after{
+    position: absolute;
+    content: attr(data-text);
+    top: 0;
+    left: 0;
+    right: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p{
+    font-size: 1.5em;
+    color: #0d0d0d;
+}
+
+.content.btns{
+    margin: 25px 0;
+    display: inline-flex;
+}
+
+.content .btns a{
+    display: inline-flex;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 2px solid #0f010f;
+    padding: 8px;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 500;
+    position: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+.content .btns a:hover{
+    background:#6073a9;
+    border-color: #6073a9;
+    color: #d26565;
+    transform: scale(1.1);
+}
