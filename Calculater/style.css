@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Creepster', cursive;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient(circle, #a25822, #582825, #2f171a, #000000);
+}
+
+.calculator{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px,auto)repeat(5, 100px);
+}
+
+.calculator > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(255, 102, 0);
+    outline: none;
+    background-color: rgba(170, 102, 0, 0.521);
+}
+
+.calculator > button:hover{
+    background-color: rgba(255, 174, 0, 0.582);
+}
+
+.duble{
+    grid-column: span 2;
+}
+
+.output{
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.548);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous{
+    color: rgba(255, 153, 0, 0.774);
+    font-size: 1.5rem;
+}
+
+.output .current{
+    color: rgba(255, 153, 0, 0.932);
+    font-size: 2.5rem;
+}
