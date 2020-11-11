@@ -1,5 +1,5 @@
-// Loader
 
+// Loader
 
 window.addEventListener("load", function(){
     document.querySelector(".preloader").classList.add("opacity-0");
@@ -99,3 +99,8 @@ function asideSectionTogglerBtn(){
         allSection[i].classList.toggle("open");
     }
 }
+
+let sana = new Date().getFullYear();
+let tarikh = `&copy;${sana} codeologie`;
+
+document.getElementById('copy').innerHTML = tarikh;
