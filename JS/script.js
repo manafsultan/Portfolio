@@ -100,6 +100,7 @@ function asideSectionTogglerBtn(){
     }
 }
 
+// change copyright year
 let sana = new Date().getFullYear();
 let tarikh = `&copy;${sana} codeologie`;
 
